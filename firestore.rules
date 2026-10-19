@@ -1,0 +1,20 @@
+rules_version = '2';
+
+// Regras do Firestore (projeto cwbranding-forms).
+// O site grava pelo Admin SDK no servidor, que ignora estas regras.
+// O navegador só lê contact_submissions no painel, em tempo real, com um
+// token emitido pelo servidor (claim `admin`) depois de validar a sessão
+// e a lista ADMIN_EMAILS — ver app/admin/actions.ts (getRealtimeToken).
+// Publicar: node scripts/deploy-firestore-rules.mjs
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /contact_submissions/{id} {
+      allow read: if request.auth != null && request.auth.token.admin == true;
+      allow write: if false;
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
