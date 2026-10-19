@@ -337,7 +337,7 @@ export const translations = {
         title: "Positioning",
         description:
           "For companies that need to structure their presence and market positioning. Your company starts to be perceived for the value it delivers.",
-        price: "5,699",
+        price: "4,599",
         features: [
           "Strategic brand diagnosis",
           "Monthly planning",
