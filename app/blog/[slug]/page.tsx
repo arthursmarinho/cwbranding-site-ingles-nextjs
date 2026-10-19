@@ -1,5 +1,7 @@
-import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+
+/* Blog disabled for now
+import type { Metadata } from "next";
 import { getPublishedPost, getPublishedPosts } from "@/lib/posts";
 import { BlogPost } from "../BlogPost";
 import { IMAGE_WIDTHS, optimizeImage } from "../optimizeImage";
@@ -8,9 +10,6 @@ interface PageProps {
   params: Promise<{ slug: string }>;
 }
 
-// Deixa as páginas dos posts prontas antecipadamente (abrem na hora, sem consultar o Firebase).
-// Posts criados depois são montados na primeira visita e guardados.
-// Ao salvar no painel, revalidatePath (app/admin/blog-actions.ts) refaz as páginas.
 export async function generateStaticParams() {
   const posts = await getPublishedPosts();
   return posts.map((post) => ({ slug: post.slug }));
@@ -35,7 +34,6 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       title: meta.title,
       description: meta.excerpt,
       type: "article",
-      // Em JPG: WhatsApp e LinkedIn nem sempre mostram WebP no compartilhamento.
       images: post.coverUrl ? [{ url: optimizeImage(post.coverUrl, IMAGE_WIDTHS.share, "jpg") }] : undefined,
     },
   };
@@ -46,8 +44,12 @@ export default async function BlogPostPage({ params }: PageProps) {
   const post = await getPublishedPost(slug);
   if (!post) notFound();
 
-  // "Leia também": os 3 posts mais recentes, sem o atual.
   const related = (await getPublishedPosts()).filter((item) => item.slug !== post.slug).slice(0, 3);
 
   return <BlogPost post={post} related={related} />;
+}
+*/
+
+export default function BlogPostPage() {
+  notFound();
 }

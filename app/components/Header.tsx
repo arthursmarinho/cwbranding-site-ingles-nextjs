@@ -17,7 +17,7 @@ export function Header() {
     { href: "/#servicos", label: t.services },
     { href: "/#sobre", label: t.about },
     { href: "/#planos", label: t.navPlans },
-    { href: "/blog", label: t.navBlog },
+    // { href: "/blog", label: t.navBlog },
   ];
 
   return (

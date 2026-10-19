@@ -1,3 +1,6 @@
+import { notFound } from "next/navigation";
+
+/* Blog disabled for now
 import type { Metadata } from "next";
 import { getPublishedPosts } from "@/lib/posts";
 import { BlogList } from "./BlogList";
@@ -12,4 +15,9 @@ export const metadata: Metadata = {
 export default async function BlogPage() {
   const posts = await getPublishedPosts();
   return <BlogList posts={posts} />;
+}
+*/
+
+export default function BlogPage() {
+  notFound();
 }

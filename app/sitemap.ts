@@ -1,11 +1,12 @@
 import type { MetadataRoute } from "next";
 import { site } from "@/app/utils/site";
 import { getServicePath, services } from "@/app/data/services";
-import { getPublishedPosts } from "@/lib/posts";
+// import { getPublishedPosts } from "@/lib/posts";
 
 // O sitemap é atualizado sempre que um post é salvo no painel (ver app/admin/blog-actions.ts).
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const posts = await getPublishedPosts();
+  // Blog disabled for now
+  // const posts = await getPublishedPosts();
 
   return [
     {
@@ -24,15 +25,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: "monthly" as const,
       priority: 0.8,
     })),
-    {
-      url: `${site.url}/blog`,
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
-    ...posts.map((post) => ({
-      url: `${site.url}/blog/${post.slug}`,
-      lastModified: post.createdAt ? new Date(post.createdAt) : undefined,
-      priority: 0.6,
-    })),
+    // {
+    //   url: `${site.url}/blog`,
+    //   changeFrequency: "weekly",
+    //   priority: 0.8,
+    // },
+    // ...posts.map((post) => ({
+    //   url: `${site.url}/blog/${post.slug}`,
+    //   lastModified: post.createdAt ? new Date(post.createdAt) : undefined,
+    //   priority: 0.6,
+    // })),
   ];
 }

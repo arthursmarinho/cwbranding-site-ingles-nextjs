@@ -6,6 +6,7 @@ import { PostCard } from "../blog/PostCard";
 import type { Post } from "../blog/types";
 import { Reveal } from "./ui/Reveal";
 
+// Blog disabled on the public site for now (see app/page.tsx). Kept for when /blog is re-enabled.
 // Seção da home com os posts mais recentes. Se não houver posts publicados, não aparece.
 export function BlogSection({ posts }: { posts: Post[] }) {
   const { t } = useLanguage();
