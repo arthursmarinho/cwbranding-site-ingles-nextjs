@@ -9,7 +9,7 @@ export const site = {
   foundingDate: "2022-05-06",
   foundingYear: "2022",
   cnpj: "46.292.260/0001-89",
-  tagline: "The strategy behind your company",
+  tagline: "The marketing behind your company",
   description:
     "Branding and digital marketing agency from Curitiba, focused on Canadian companies. Social media, visual identity, paid traffic, and brand positioning for brands across Canada.",
   title: "CWBranding | Branding and digital marketing agency in Canada",
