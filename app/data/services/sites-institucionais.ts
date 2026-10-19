@@ -2,7 +2,7 @@ import type { ServiceContent } from "./types";
 
 export const sitesInstitucionais: ServiceContent = {
   id: 10,
-  slug: "sites-institucionais",
+  slug: "e-commerce",
   seoTitle: "Criação de Sites Institucionais em Curitiba",
   seoDescription:
     "Criação de sites institucionais em Curitiba: sites rápidos, responsivos e alinhados à marca para apresentar sua empresa com credibilidade.",

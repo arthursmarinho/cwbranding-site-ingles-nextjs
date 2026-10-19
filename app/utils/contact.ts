@@ -5,7 +5,7 @@ export const contact = {
   instagram: "https://www.instagram.com/agenciacwbranding/",
   linkedin: "https://www.linkedin.com/company/ag%C3%AAncia-cwbranding",
   /** Home page contact form section */
-  formHref: "/#contato",
+  formHref: "/#contact",
   mapUrl:
     "https://maps.google.com/?q=Rua+%C3%89bano+Pereira,+11,+Centro,+Curitiba+-+PR,+80410-240",
   mapEmbedUrl:

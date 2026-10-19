@@ -26,7 +26,7 @@ export function ServiceDetail({ service }: { service: ServiceContent }) {
     <div className="min-h-screen bg-[#004D4C] text-white">
       <div className="mx-auto max-w-6xl px-6 pb-20 pt-28 md:pt-36">
         <Link
-          href="/#servicos"
+          href="/#services"
           className="inline-flex items-center gap-1 text-xs uppercase tracking-widest text-white/70 transition-colors hover:text-[#E8C39E]"
         >
           <ChevronLeft className="size-4" /> {t.serviceBack}

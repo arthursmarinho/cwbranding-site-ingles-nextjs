@@ -2,7 +2,7 @@ import type { ServiceContent } from "./types";
 
 export const gestaoDeTrafego: ServiceContent = {
   id: 3,
-  slug: "gestao-de-trafego",
+  slug: "paid-traffic",
   seoTitle: "Gestão de Tráfego Pago em Curitiba",
   seoDescription:
     "Gestão de tráfego pago em Curitiba: campanhas no Google e na Meta para gerar visitantes qualificados, leads e crescimento previsível para a sua empresa.",

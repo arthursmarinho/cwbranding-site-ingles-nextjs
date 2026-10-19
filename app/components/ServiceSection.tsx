@@ -10,7 +10,7 @@ export function ServicesSection() {
 
   return (
     <section
-      id="servicos"
+      id="services"
       className="relative overflow-hidden bg-[#004A4A] py-28 md:py-40 pl-6 md:pl-12 pr-4 md:pr-5 scroll-mt-16"
     >
       <div className="mx-auto max-w-[1600px]">

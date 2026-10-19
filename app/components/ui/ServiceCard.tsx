@@ -19,7 +19,7 @@ const MotionLink = motion.create(Link);
 export function ServiceCard({ id, title, desc, index }: ServiceCardProps) {
   const imageUrl = getServiceImageUrl(id);
   const service = getServiceById(id);
-  const href = service ? getServicePath(service) : "/servicos";
+  const href = service ? getServicePath(service) : "/services";
 
   return (
     <MotionLink

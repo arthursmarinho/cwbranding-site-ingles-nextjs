@@ -9,10 +9,10 @@ export const metadata: Metadata = {
   description:
     "CWBranding from Curitiba — social media, visual identity, paid traffic, landing pages, SEO, websites, branding, and more for Canadian companies.",
   alternates: {
-    canonical: "/servicos",
+    canonical: "/services",
   },
   openGraph: {
-    url: `${site.url}/servicos`,
+    url: `${site.url}/services`,
     title: "Services | CWBranding",
     description:
       "Social media, visual identity, paid traffic, and more branding services across Canada.",

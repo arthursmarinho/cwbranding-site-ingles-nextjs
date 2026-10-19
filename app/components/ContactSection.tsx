@@ -111,7 +111,7 @@ export function ContactSection() {
 
   return (
     <section
-      id="contato"
+      id="contact"
       className="relative scroll-mt-16 overflow-hidden bg-[radial-gradient(ellipse_at_top_left,#0A4B48_0%,#04302E_55%,#032826_100%)] px-6 py-20 md:px-12 md:py-28"
     >
       <div className="mx-auto grid max-w-6xl items-center gap-14 lg:grid-cols-2 lg:gap-20">

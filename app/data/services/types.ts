@@ -13,7 +13,7 @@ export type ServiceText = {
 
 export type ServiceContent = {
   id: number;
-  slug: string; // endereço: /servicos/<slug>
+  slug: string; // path: /services/<slug>
   seoTitle: string; // título no Google (português)
   seoDescription: string; // descrição no Google (português)
   pt: ServiceText;

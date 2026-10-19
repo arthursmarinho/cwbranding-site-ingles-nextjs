@@ -11,7 +11,7 @@ export function AboutSection() {
 
   return (
     <section
-      id="sobre"
+      id="about"
       className="relative bg-[#004D4C] py-28 md:py-40 px-6 md:px-12 overflow-hidden scroll-mt-16"
     >
       <div className="mx-auto max-w-[1400px] grid lg:grid-cols-12 gap-12 items-start">

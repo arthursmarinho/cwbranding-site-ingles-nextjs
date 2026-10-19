@@ -14,9 +14,9 @@ export function Header() {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   const navItems = [
-    { href: "/#servicos", label: t.services },
-    { href: "/#sobre", label: t.about },
-    { href: "/#planos", label: t.navPlans },
+    { href: "/#services", label: t.services },
+    { href: "/#about", label: t.about },
+    { href: "/#plans", label: t.navPlans },
     // { href: "/blog", label: t.navBlog },
   ];
 

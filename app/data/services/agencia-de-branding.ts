@@ -2,7 +2,7 @@ import type { ServiceContent } from "./types";
 
 export const agenciaDeBranding: ServiceContent = {
   id: 5,
-  slug: "agencia-de-branding",
+  slug: "branding-agency",
   seoTitle: "Agência de Branding em Curitiba",
   seoDescription:
     "Agência de branding em Curitiba: diagnóstico, posicionamento e plano de marca para empresas que precisam de direção estratégica, não só de peças.",

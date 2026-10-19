@@ -31,7 +31,7 @@ export function SpaceSection() {
   const { t } = useLanguage();
 
   return (
-    <div id="espaco" className="scroll-mt-16 grid grid-cols-1 lg:grid-cols-2 max-h-auto bg-[#004A4A] text-white">
+    <div id="space" className="scroll-mt-16 grid grid-cols-1 lg:grid-cols-2 max-h-auto bg-[#004A4A] text-white">
       <section className="flex items-center justify-center py-12 lg:py-0 px-6">
         <Carousel className="w-full max-w-[500px]">
           <CarouselContent>

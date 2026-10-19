@@ -67,7 +67,7 @@ export function Footer() {
               <ul className="space-y-3 text-sm">
                 <li>
                   <a
-                    href="/servicos"
+                    href="/services"
                     className="transition-colors hover:text-[color:var(--sand-soft)]"
                   >
                     {t.services}
@@ -75,7 +75,7 @@ export function Footer() {
                 </li>
                 <li>
                   <a
-                    href="/#sobre"
+                    href="/#about"
                     className="transition-colors hover:text-[color:var(--sand-soft)]"
                   >
                     {t.about}
@@ -83,7 +83,7 @@ export function Footer() {
                 </li>
                 <li>
                   <a
-                    href="/#espaco"
+                    href="/#space"
                     className="transition-colors hover:text-[color:var(--sand-soft)]"
                   >
                     {t.navSpace}
@@ -91,7 +91,7 @@ export function Footer() {
                 </li>
                 <li>
                   <a
-                    href="/#clientes"
+                    href="/#clients"
                     className="transition-colors hover:text-[color:var(--sand-soft)]"
                   >
                     {t.navClients}
@@ -99,7 +99,7 @@ export function Footer() {
                 </li>
                 <li>
                   <a
-                    href="/#planos"
+                    href="/#plans"
                     className="transition-colors hover:text-[color:var(--sand-soft)]"
                   >
                     {t.navPlans}

@@ -249,7 +249,8 @@ export const translations = {
     serviceIncludesTitle: "O que está incluso",
     serviceFaqTitle: "Perguntas frequentes",
     serviceCtaTitle: "Vamos conversar sobre o seu projeto?",
-    serviceCtaText: "Conte o que a sua empresa precisa e montamos uma proposta sob medida.",
+    serviceCtaText:
+      "Conte o que a sua empresa precisa e montamos uma proposta sob medida.",
     serviceOthersTitle: "Outros serviços",
     portfolioTitleSites: ["Sites já", "desenvolvidos"],
     portfolioTitleLanding: ["Landing pages", "já desenvolvidas"],
@@ -270,7 +271,7 @@ export const translations = {
     country: "CANADA",
     discover: "Discover",
 
-    heroTitleLine1: "THE STRATEGY",
+    heroTitleLine1: "THE MARKETING",
     heroTitleLine2: "BEHIND",
     heroTitleLine3: "YOUR COMPANY",
     heroSubtitle: "TOR · ON · CAN",
@@ -507,7 +508,8 @@ export const translations = {
     serviceIncludesTitle: "What's included",
     serviceFaqTitle: "Frequently asked questions",
     serviceCtaTitle: "Shall we talk about your project?",
-    serviceCtaText: "Tell us what your company needs and we'll put together a tailored proposal.",
+    serviceCtaText:
+      "Tell us what your company needs and we'll put together a tailored proposal.",
     serviceOthersTitle: "Other services",
     portfolioTitleSites: ["E-commerces", "we've built"],
     portfolioTitleLanding: ["Landing pages", "we've built"],

@@ -2,7 +2,7 @@ import type { ServiceContent } from "./types";
 
 export const coberturaDeEventos: ServiceContent = {
   id: 8,
-  slug: "cobertura-de-eventos",
+  slug: "event-coverage",
   seoTitle: "Cobertura de Eventos em Curitiba",
   seoDescription:
     "Cobertura de eventos institucionais e promocionais em Curitiba: planejamento, registro e conteúdo para a marca aparecer com consistência durante e depois do evento.",

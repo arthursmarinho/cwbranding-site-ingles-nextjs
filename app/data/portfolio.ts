@@ -33,7 +33,7 @@ export const portfolio: PortfolioProject[] = [
 
 // Qual tipo de projeto aparece em cada página de serviço.
 const TYPE_BY_SERVICE: Record<string, PortfolioType> = {
-  "sites-institucionais": "site",
+  "e-commerce": "site",
   "landing-pages": "landing-page",
 };
 

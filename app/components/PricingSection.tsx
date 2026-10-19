@@ -11,7 +11,7 @@ export default function PricingSection() {
   const plans = t.plans || [];
 
   return (
-    <section id="planos" className="scroll-mt-16 bg-[#EBF5F5] py-16 px-6 md:px-12">
+    <section id="plans" className="scroll-mt-16 bg-[#EBF5F5] py-16 px-6 md:px-12">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-display tracking-tight text-[#004d4c]">

@@ -98,7 +98,7 @@ export function faqJsonLd(items: { question: string; answer: string }[]) {
 }
 
 export function serviceJsonLd(service: (typeof services)[number]) {
-  const url = `${site.url}/servicos/${service.slug}`;
+  const url = `${site.url}/services/${service.slug}`;
   return [
     {
       "@context": "https://schema.org",
@@ -127,7 +127,7 @@ export function serviceJsonLd(service: (typeof services)[number]) {
           "@type": "ListItem",
           position: 2,
           name: "Services",
-          item: `${site.url}/servicos`,
+          item: `${site.url}/services`,
         },
         {
           "@type": "ListItem",
