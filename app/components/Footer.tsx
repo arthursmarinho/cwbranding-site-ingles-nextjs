@@ -163,6 +163,23 @@ export function Footer() {
                     </a>
                   </div>
                 </li>
+
+                <li className="flex items-start gap-3 pt-2">
+                  <MapPin className="mt-0.5 size-4 shrink-0 text-[#E8C39E]" />
+                  <div>
+                    <p className="whitespace-pre-line leading-relaxed">
+                      {t.footerAddressCuritiba}
+                    </p>
+                    <a
+                      href={contact.curitibaMapUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mt-2 inline-flex items-center text-[#E8C39E] transition-colors hover:text-[color:var(--sand-soft)]"
+                    >
+                      {t.footerViewMap}
+                    </a>
+                  </div>
+                </li>
               </ul>
             </div>
 

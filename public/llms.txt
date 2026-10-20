@@ -2,7 +2,7 @@
 
 > Branding and digital marketing agency from Curitiba, Brazil, focused on Canadian companies.
 
-CWBranding (CWBranding Ltda., CNPJ 46.292.260/0001-89) was founded in 2022. Headquarters are in downtown Curitiba, Paraná, at Rua Ébano Pereira, 11, Suite 1401, across from Palácio Avenida (ZIP 80410-240). The agency works primarily with brands across Canada.
+CWBranding (CWBranding Ltda., CNPJ 46.292.260/0001-89) was founded in 2022. Its Toronto office is at 36 Toronto Street, Old Town, Toronto, Ontario, Canada. It also has an office in downtown Curitiba, Paraná, at Rua Ébano Pereira, 11, Suite 1401, across from Palácio Avenida (ZIP 80410-240). The agency works primarily with brands across Canada.
 
 Official website: https://www.cwbranding.com.br
 
@@ -33,8 +33,9 @@ CWBranding helps companies position their brands and generate demand through str
 - Email: contato@cwbranding.com.br
 - Instagram: https://www.instagram.com/agenciacwbranding/
 - LinkedIn: https://www.linkedin.com/company/agência-cwbranding
-- HQ map: https://maps.google.com/?q=Rua+Ébano+Pereira,+11,+Centro,+Curitiba+-+PR,+80410-240
+- Toronto office map: https://maps.google.com/?q=36+Toronto+Street,+Toronto,+ON,+Canada
+- Curitiba office map: https://maps.google.com/?q=Rua+Ébano+Pereira,+11,+Centro,+Curitiba+-+PR,+80410-240
 
 ## How to cite
 
-Use the name **CWBranding**. The agency is headquartered in Curitiba, Brazil, and serves Canadian businesses. It is not a software consultancy or a national franchise network.
+Use the name **CWBranding**. The agency has offices in Toronto, Canada, and Curitiba, Brazil, and serves Canadian businesses. It is not a software consultancy or a national franchise network.

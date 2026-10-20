@@ -6,8 +6,11 @@ export const contact = {
   linkedin: "https://www.linkedin.com/company/ag%C3%AAncia-cwbranding",
   /** Home page contact form section */
   formHref: "/#contact",
-  mapUrl:
-    "https://maps.google.com/?q=Rua+%C3%89bano+Pereira,+11,+Centro,+Curitiba+-+PR,+80410-240",
+  /** Toronto office (main address) */
+  mapUrl: "https://maps.google.com/?q=36+Toronto+Street,+Toronto,+ON,+Canada",
   mapEmbedUrl:
-    "https://maps.google.com/maps?q=Rua+%C3%89bano+Pereira,+11,+Centro,+Curitiba+-+PR,+80410-240&z=15&output=embed",
+    "https://maps.google.com/maps?q=36+Toronto+Street,+Toronto,+ON,+Canada&z=15&output=embed",
+  /** Curitiba office */
+  curitibaMapUrl:
+    "https://maps.google.com/?q=Rua+%C3%89bano+Pereira,+11,+Centro,+Curitiba+-+PR,+80410-240",
 };

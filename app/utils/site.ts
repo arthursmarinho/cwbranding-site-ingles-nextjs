@@ -23,6 +23,13 @@ export const site = {
     "branding",
   ],
   address: {
+    streetAddress: "36 Toronto Street",
+    addressLocality: "Toronto",
+    addressRegion: "ON",
+    addressCountry: "CA",
+    neighborhood: "Old Town",
+  },
+  curitibaAddress: {
     streetAddress: "Rua Ébano Pereira, 11, Conj. 1401",
     addressLocality: "Curitiba",
     addressRegion: "PR",
@@ -31,8 +38,8 @@ export const site = {
     landmark: "across from Palácio Avenida",
   },
   geo: {
-    latitude: -25.4335,
-    longitude: -49.2768,
+    latitude: 43.6505,
+    longitude: -79.3757,
   },
   areasServed: ["Canada", "Toronto", "Ontario", "Curitiba"],
   priceRange: "$3,599 – $9,999 CAD",

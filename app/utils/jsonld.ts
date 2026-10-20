@@ -7,8 +7,20 @@ const address = {
   streetAddress: site.address.streetAddress,
   addressLocality: site.address.addressLocality,
   addressRegion: site.address.addressRegion,
-  postalCode: site.address.postalCode,
   addressCountry: site.address.addressCountry,
+};
+
+const curitibaLocation = {
+  "@type": "Place",
+  name: `${site.name} Curitiba`,
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: site.curitibaAddress.streetAddress,
+    addressLocality: site.curitibaAddress.addressLocality,
+    addressRegion: site.curitibaAddress.addressRegion,
+    postalCode: site.curitibaAddress.postalCode,
+    addressCountry: site.curitibaAddress.addressCountry,
+  },
 };
 
 export const organizationJsonLd = {
@@ -27,6 +39,7 @@ export const organizationJsonLd = {
   email: site.contact.email,
   priceRange: site.priceRange,
   address,
+  location: curitibaLocation,
   geo: {
     "@type": "GeoCoordinates",
     latitude: site.geo.latitude,

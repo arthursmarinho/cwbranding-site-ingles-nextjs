@@ -138,7 +138,8 @@ export const translations = {
     footerDescription: "A sua agência  de marketing. Curitiba — PR.",
     footerNavTitle: "Navegação",
     footerContactTitle: "Contato",
-    footerAddress:
+    footerAddress: "36 Toronto Street\nOld Town — Toronto, ON, Canadá",
+    footerAddressCuritiba:
       "Rua Ébano Pereira, 11, Conj. 1401\nCentro — Curitiba, PR — 80410-240",
     footerViewMap: "Ver no mapa",
     footerRights: "Todos os direitos reservados.",
@@ -392,7 +393,8 @@ export const translations = {
     footerDescription: "From Curitiba — focused on Canada.",
     footerNavTitle: "Navigation",
     footerContactTitle: "Contact",
-    footerAddress:
+    footerAddress: "36 Toronto Street\nOld Town — Toronto, ON, Canada",
+    footerAddressCuritiba:
       "Rua Ébano Pereira, 11, Suite 1401\nDowntown — Curitiba, PR — 80410-240, Brazil",
     footerViewMap: "View on map",
     footerRights: "All rights reserved.",
