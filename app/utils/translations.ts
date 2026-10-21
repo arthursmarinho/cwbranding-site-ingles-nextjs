@@ -288,10 +288,10 @@ export const translations = {
     aboutParagraph2:
       "We are specialists in creating a striking digital presence, helping our partners stand out in their industry with strategy, design, and flawless execution.",
     aboutParagraph3:
-      "CWBranding Ltda. was founded in 2022 in downtown Curitiba, at Rua Ébano Pereira, 11, across from Palácio Avenida. Today we focus on helping Canadian companies grow with social media, visual identity, paid media, and demand generation — with remote collaboration aligned to Canadian time zones when needed.",
+      "CWBranding Ltda. was founded in 2022 in downtown Curitiba, at Rua Ébano Pereira, 11, across from Palácio Avenida. Today we focus on helping Canadian companies grow with social media, visual identity, paid media, and demand generation — in Canada, from our office at 36 Toronto Street, in Toronto's Old Town.",
     aboutFacts: [
       { label: "Founded", value: "2022" },
-      { label: "HQ", value: "Downtown Curitiba" },
+      { label: "HQ", value: "Toronto, Canada" },
       { label: "We work for", value: "Canada" },
       { label: "CNPJ", value: "46.292.260/0001-89" },
     ],
@@ -311,7 +311,7 @@ export const translations = {
 
     spaceTitle: "Our Space",
     spaceDescription:
-      "Trust is built on solidity and transparency. Our headquarters in downtown Curitiba — across from Palácio Avenida — is where our team plans, creates, and delivers for clients. Canadian brands work with us remotely with the same strategic rigor and dedicated support.",
+      "Trust is built on solidity and transparency. We are in Canada: our office at 36 Toronto Street, in Toronto's Old Town, keeps us close to the brands we serve. Together with our studio in downtown Curitiba — across from Palácio Avenida — our team plans, creates, and delivers with the same strategic rigor and dedicated support.",
     spaceLocation: "Location",
 
     pricingTitleLine1: "Our",
@@ -409,7 +409,7 @@ export const translations = {
       {
         question: "Do you work with companies in Canada?",
         answer:
-          "Yes. Canadian companies are our focus. We deliver branding, social media, paid media, and full marketing programs for brands across Canada, with remote collaboration and scheduling that works for your team.",
+          "Yes. We are in Canada, and Canadian companies are our focus. We deliver branding, social media, paid media, and full marketing programs for brands across Canada, from our office in Toronto and on a schedule that works for your team.",
       },
       {
         question: "What services does CWBranding offer?",
